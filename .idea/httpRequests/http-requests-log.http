@@ -1,0 +1,14 @@
+GET http://localhost:8081/hello
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-10T095340.200.txt
+
+###
+
+GET http://localhost:8081/hello
+Accept: */*
+Cache-Control: no-cache
+
+###
+
