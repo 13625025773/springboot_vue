@@ -21,6 +21,7 @@
         <module name="properties" />
         <module name="yaml" />
         <module name="banner" />
+        <module name="interceptor" />
         <module name="vue" />
         <module name="json" />
         <module name="photos" />
@@ -38,6 +39,7 @@
       <module name="freemarker" options="-parameters" />
       <module name="gson" options="-parameters" />
       <module name="helloword" options="-parameters" />
+      <module name="interceptor" options="-parameters" />
       <module name="jetty" options="-parameters" />
       <module name="json" options="-parameters" />
       <module name="photos" options="-parameters" />
