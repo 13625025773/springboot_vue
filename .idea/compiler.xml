@@ -11,6 +11,7 @@
         <module name="jetty" />
         <module name="properties" />
         <module name="vue" />
+        <module name="yaml" />
         <module name="helloword" />
         <module name="undertow" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="jetty" options="-parameters" />
       <module name="properties" options="-parameters" />
       <module name="undertow" options="-parameters" />
+      <module name="yaml" options="-parameters" />
     </option>
   </component>
 </project>

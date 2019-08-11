@@ -1,0 +1,7 @@
+server:
+  port: 8081
+user:
+  id:1
+  name:韩雪
+  sex:女
+  age:17
