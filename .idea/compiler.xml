@@ -11,6 +11,7 @@
         <module name="banner" />
         <module name="jetty" />
         <module name="properties" />
+        <module name="json" />
         <module name="freemarker" />
         <module name="profile" />
         <module name="vue" />
@@ -26,6 +27,7 @@
       <module name="freemarker" options="-parameters" />
       <module name="helloword" options="-parameters" />
       <module name="jetty" options="-parameters" />
+      <module name="json" options="-parameters" />
       <module name="profile" options="-parameters" />
       <module name="properties" options="-parameters" />
       <module name="thymeleaf" options="-parameters" />
