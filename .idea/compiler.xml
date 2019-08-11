@@ -18,6 +18,7 @@
         <module name="jetty" />
         <module name="profile" />
         <module name="freemarker" />
+        <module name="aop" />
         <module name="helloword" />
         <module name="servlet-filter-listener" />
         <module name="properties" />
@@ -33,6 +34,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aop" options="-parameters" />
       <module name="banner" options="-parameters" />
       <module name="cors" options="-parameters" />
       <module name="errorpage" options="-parameters" />
