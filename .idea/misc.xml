@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/errorpage/pom.xml" />
         <option value="$PROJECT_DIR$/cors/pom.xml" />
         <option value="$PROJECT_DIR$/interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet-filter-listener/pom.xml" />
       </list>
     </option>
   </component>

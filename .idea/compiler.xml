@@ -18,6 +18,7 @@
         <module name="profile" />
         <module name="freemarker" />
         <module name="helloword" />
+        <module name="servlet-filter-listener" />
         <module name="properties" />
         <module name="yaml" />
         <module name="banner" />
@@ -46,6 +47,7 @@
       <module name="profile" options="-parameters" />
       <module name="properties" options="-parameters" />
       <module name="resources" options="-parameters" />
+      <module name="servlet-filter-listener" options="-parameters" />
       <module name="thymeleaf" options="-parameters" />
       <module name="undertow" options="-parameters" />
       <module name="yaml" options="-parameters" />
