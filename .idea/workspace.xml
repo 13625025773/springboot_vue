@@ -25,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/resources/target/" />
     <ignored path="$PROJECT_DIR$/photos/target/" />
     <ignored path="$PROJECT_DIR$/exception/target/" />
+    <ignored path="$PROJECT_DIR$/errorpage/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +60,63 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/example/exception/controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="286">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errorpage/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errorpage/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errorpage/src/main/resources/templates/error/4xx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="8" lean-forward="true" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errorpage/src/main/java/com/example/errorpage/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/errorpage/src/main/resources/templates/error/5xx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -86,8 +136,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="banner.txt" />
-        <option value="Thymeleaf.html" />
         <option value="HTML File" />
+        <option value="Thymeleaf.html" />
         <option value="Class" />
       </list>
     </option>
@@ -98,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helloword/src/main/java/springboot/helloword/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/helloword/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/banner/src/main/java/com/example/banner/BannerApplication.java" />
         <option value="$PROJECT_DIR$/jetty/pom.xml" />
@@ -145,6 +194,11 @@
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/exception/controlleradvice/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/exception/controlleradvice/ExceptionHandlerDemo.java" />
         <option value="$PROJECT_DIR$/exception/src/main/java/com/example/exception/controller.java" />
+        <option value="$PROJECT_DIR$/errorpage/pom.xml" />
+        <option value="$PROJECT_DIR$/errorpage/src/main/resources/templates/error/4xx.html" />
+        <option value="$PROJECT_DIR$/errorpage/src/main/java/com/example/errorpage/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/errorpage/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/errorpage/src/main/resources/templates/error/5xx.html" />
       </list>
     </option>
   </component>
@@ -168,7 +222,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-81" />
     <option name="y" value="40" />
     <option name="width" value="1260" />
@@ -179,6 +233,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showExcludedFiles Scope="false" ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -193,47 +248,74 @@
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-              <item name="controlleradvice" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
+              <item name="errorpage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,10 +488,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExceptionApplication">
+  <component name="RunManager" selected="Spring Boot.ErrorpageApplication">
     <configuration name="BannerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="banner" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.banner.BannerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorpageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="errorpage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.errorpage.ErrorpageApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -525,12 +614,12 @@
       <updated>1565444688074</updated>
       <workItem from="1565444703512" duration="1587000" />
       <workItem from="1565484109746" duration="14262000" />
-      <workItem from="1565508667753" duration="466000" />
+      <workItem from="1565508667753" duration="1357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16315000" />
+    <option name="totallyTimeSpent" value="17206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +645,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19453925" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.051194537" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7286689" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,45 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/properties/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaml/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/YamlApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1051,11 +1101,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exception/src/main/java/com/example/exception/controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="286">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorpage/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorpage/src/main/java/com/example/errorpage/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorpage/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorpage/src/main/resources/templates/error/4xx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" lean-forward="true" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errorpage/src/main/resources/templates/error/5xx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>

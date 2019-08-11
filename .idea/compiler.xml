@@ -9,6 +9,7 @@
         <module name="fastjson" />
         <module name="gson" />
         <module name="undertow" />
+        <module name="errorpage" />
         <module name="springboot_vue" />
         <module name="thymeleaf" />
         <module name="resources" />
@@ -29,6 +30,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="banner" options="-parameters" />
+      <module name="errorpage" options="-parameters" />
       <module name="exception" options="-parameters" />
       <module name="fastjson" options="-parameters" />
       <module name="freemarker" options="-parameters" />
