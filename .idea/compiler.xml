@@ -14,6 +14,7 @@
         <module name="thymeleaf" />
         <module name="cors" />
         <module name="resources" />
+        <module name="pathmapping" />
         <module name="jetty" />
         <module name="profile" />
         <module name="freemarker" />
@@ -43,6 +44,7 @@
       <module name="interceptor" options="-parameters" />
       <module name="jetty" options="-parameters" />
       <module name="json" options="-parameters" />
+      <module name="pathmapping" options="-parameters" />
       <module name="photos" options="-parameters" />
       <module name="profile" options="-parameters" />
       <module name="properties" options="-parameters" />

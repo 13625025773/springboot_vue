@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/cors/pom.xml" />
         <option value="$PROJECT_DIR$/interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/servlet-filter-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/pathmapping/pom.xml" />
       </list>
     </option>
   </component>
