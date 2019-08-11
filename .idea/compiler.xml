@@ -8,26 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fastjson" />
         <module name="gson" />
-        <module name="thymeleaf" />
         <module name="undertow" />
+        <module name="springboot_vue" />
+        <module name="thymeleaf" />
+        <module name="resources" />
         <module name="jetty" />
         <module name="profile" />
-        <module name="helloword" />
         <module name="freemarker" />
-        <module name="resources" />
+        <module name="helloword" />
         <module name="properties" />
         <module name="yaml" />
         <module name="banner" />
-        <module name="photos" />
         <module name="vue" />
         <module name="json" />
-        <module name="springboot_vue" />
+        <module name="photos" />
+        <module name="exception" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="banner" options="-parameters" />
+      <module name="exception" options="-parameters" />
       <module name="fastjson" options="-parameters" />
       <module name="freemarker" options="-parameters" />
       <module name="gson" options="-parameters" />
