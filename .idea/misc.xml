@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/photos/pom.xml" />
         <option value="$PROJECT_DIR$/exception/pom.xml" />
         <option value="$PROJECT_DIR$/errorpage/pom.xml" />
+        <option value="$PROJECT_DIR$/cors/pom.xml" />
       </list>
     </option>
   </component>
