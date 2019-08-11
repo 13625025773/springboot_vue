@@ -4,7 +4,6 @@
     <list default="true" id="f9977794-7435-4f25-8409-7be482162544" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -17,6 +16,7 @@
     <ignored path="$PROJECT_DIR$/undertow/target/" />
     <ignored path="$PROJECT_DIR$/properties/target/" />
     <ignored path="$PROJECT_DIR$/yaml/target/" />
+    <ignored path="$PROJECT_DIR$/profile/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +35,12 @@
         <entry file="file://$PROJECT_DIR$/yaml/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-end-line="7" />
+              <caret line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/properties/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
@@ -59,6 +50,56 @@
                 <element signature="e#407#408#0" expanded="true" />
                 <element signature="e#434#435#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/example/profile/ProfileApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile/src/main/resources/application-prod.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -80,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#434#435#0" expanded="true" />
@@ -101,14 +142,6 @@
                 <element signature="e#904#905#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35" />
           </provider>
         </entry>
       </file>
@@ -156,6 +189,10 @@
         <option value="$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/model/User.java" />
         <option value="$PROJECT_DIR$/yaml/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/profile/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/profile/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/profile/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/profile/src/main/java/com/example/profile/ProfileApplication.java" />
       </list>
     </option>
   </component>
@@ -205,62 +242,42 @@
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot_vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_vue" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -279,10 +296,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/profile/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SpringBoot\springboot_vue\profile\src\main\resources" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -402,7 +424,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.YamlApplication">
+  <component name="RunManager" selected="Spring Boot.ProfileApplication">
     <configuration name="BannerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="banner" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.banner.BannerApplication" />
@@ -420,6 +442,13 @@
     <configuration name="JettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="jetty" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jetty.JettyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="profile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.profile.ProfileApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,12 +486,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565444688074</updated>
       <workItem from="1565444703512" duration="1587000" />
-      <workItem from="1565484109746" duration="5072000" />
+      <workItem from="1565484109746" duration="5385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6659000" />
+    <option name="totallyTimeSpent" value="6972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,12 +517,12 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6501706" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27474403" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.8122867" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="7" visible="true" weight="0.051194537" />
+      <window_info anchor="bottom" id="REST Client" order="7" weight="0.34982935" />
       <window_info anchor="bottom" id="Spring" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" show_stripe_button="false" weight="0.32935154" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -692,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/yaml/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-end-line="7" />
+          <caret line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -710,7 +739,7 @@
     <entry file="file://$PROJECT_DIR$/yaml/src/main/java/com/example/yaml/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#434#435#0" expanded="true" />
@@ -741,6 +770,46 @@
             <element signature="imports" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
             <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile/src/main/java/com/example/profile/ProfileApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
           </folding>
         </state>
       </provider>

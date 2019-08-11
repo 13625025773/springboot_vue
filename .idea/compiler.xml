@@ -10,6 +10,7 @@
         <module name="banner" />
         <module name="jetty" />
         <module name="properties" />
+        <module name="profile" />
         <module name="vue" />
         <module name="yaml" />
         <module name="helloword" />
@@ -22,6 +23,7 @@
       <module name="banner" options="-parameters" />
       <module name="helloword" options="-parameters" />
       <module name="jetty" options="-parameters" />
+      <module name="profile" options="-parameters" />
       <module name="properties" options="-parameters" />
       <module name="undertow" options="-parameters" />
       <module name="yaml" options="-parameters" />
