@@ -11,6 +11,7 @@
         <module name="banner" />
         <module name="jetty" />
         <module name="properties" />
+        <module name="freemarker" />
         <module name="profile" />
         <module name="vue" />
         <module name="yaml" />
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="banner" options="-parameters" />
+      <module name="freemarker" options="-parameters" />
       <module name="helloword" options="-parameters" />
       <module name="jetty" options="-parameters" />
       <module name="profile" options="-parameters" />
