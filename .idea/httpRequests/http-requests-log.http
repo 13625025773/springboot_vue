@@ -2,6 +2,30 @@ GET http://localhost:8080/student
 Accept: */*
 Cache-Control: no-cache
 
+<> 2019-08-11T092905.200.json
+
+###
+
+GET http://localhost:8080/student
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-11T092758.404.json
+
+###
+
+GET http://localhost:8080/student
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-11T092720.200.json
+
+###
+
+GET http://localhost:8080/student
+Accept: */*
+Cache-Control: no-cache
+
 <> 2019-08-11T091822.200.json
 
 ###

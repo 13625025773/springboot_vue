@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/banner/pom.xml" />
         <option value="$PROJECT_DIR$/jetty/pom.xml" />
         <option value="$PROJECT_DIR$/undertow/pom.xml" />
+        <option value="$PROJECT_DIR$/properties/pom.xml" />
       </list>
     </option>
   </component>
