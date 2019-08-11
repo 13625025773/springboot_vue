@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/properties/pom.xml" />
         <option value="$PROJECT_DIR$/yaml/pom.xml" />
         <option value="$PROJECT_DIR$/profile/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleaf/pom.xml" />
       </list>
     </option>
   </component>
