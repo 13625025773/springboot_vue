@@ -18,6 +18,7 @@
         <module name="properties" />
         <module name="yaml" />
         <module name="banner" />
+        <module name="photos" />
         <module name="vue" />
         <module name="json" />
         <module name="springboot_vue" />
@@ -33,6 +34,7 @@
       <module name="helloword" options="-parameters" />
       <module name="jetty" options="-parameters" />
       <module name="json" options="-parameters" />
+      <module name="photos" options="-parameters" />
       <module name="profile" options="-parameters" />
       <module name="properties" options="-parameters" />
       <module name="resources" options="-parameters" />
