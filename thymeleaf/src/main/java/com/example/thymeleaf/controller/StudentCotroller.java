@@ -27,6 +27,5 @@ public class StudentCotroller {
         studentList.add(student3);
         model.addAttribute("students",studentList);
         return "students";
-
     }
 }

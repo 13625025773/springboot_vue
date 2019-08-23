@@ -10,24 +10,24 @@
         <module name="gson" />
         <module name="undertow" />
         <module name="errorpage" />
-        <module name="springboot_vue" />
         <module name="thymeleaf" />
         <module name="cors" />
         <module name="resources" />
-        <module name="pathmapping" />
-        <module name="jetty" />
-        <module name="profile" />
-        <module name="freemarker" />
-        <module name="aop" />
-        <module name="helloword" />
-        <module name="servlet-filter-listener" />
-        <module name="properties" />
-        <module name="yaml" />
-        <module name="banner" />
-        <module name="interceptor" />
-        <module name="vue" />
         <module name="json" />
+        <module name="jetty" />
+        <module name="yaml" />
+        <module name="profile" />
+        <module name="helloword" />
+        <module name="aop" />
+        <module name="freemarker" />
+        <module name="pathmapping" />
+        <module name="properties" />
+        <module name="servlet-filter-listener" />
+        <module name="banner" />
         <module name="photos" />
+        <module name="vue" />
+        <module name="interceptor" />
+        <module name="springboot_vue" />
         <module name="exception" />
       </profile>
     </annotationProcessing>
